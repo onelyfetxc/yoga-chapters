@@ -94,10 +94,27 @@ h1 { margin: 0; max-width: 750px; font-size: clamp(3.5rem, 7vw, 7rem); }
 .article-copy { padding: clamp(2rem, 5vw, 5rem); }
 .article-copy h2 { margin: 1rem 0; font-size: clamp(2.1rem, 4vw, 4.3rem); }
 .article-card:not(.featured-article) .article-copy h2 { font-size: clamp(2rem, 3vw, 3rem); }
-.article-meta, .coming-soon { color: var(--saffron); text-transform: uppercase; letter-spacing: .12em; font-size: .74rem; font-weight: 600; }
-.coming-soon { display: inline-block; margin-top: 1.5rem; color: var(--ink); border-bottom: 1px solid var(--ink); }
+.article-meta, .article-link { color: var(--saffron); text-transform: uppercase; letter-spacing: .12em; font-size: .74rem; font-weight: 600; }
+.article-link { display: inline-block; margin-top: 1.5rem; color: var(--ink); text-underline-offset: .35rem; text-decoration-thickness: 1px; }
+.article-link:hover { color: var(--saffron); }
 .blog-note { padding: clamp(5rem, 9vw, 9rem) clamp(1.5rem, 10vw, 10rem); text-align: center; }
 .blog-note p:not(.eyebrow) { max-width: 650px; margin: 2rem auto; }
+
+.article-page { background: var(--paper); }
+.article-header { padding: clamp(5rem, 10vw, 9rem) clamp(1.5rem, 12vw, 12rem) clamp(3.5rem, 7vw, 6rem); background: var(--ivory); }
+.article-header h1 { max-width: 1050px; font-size: clamp(3.4rem, 7vw, 7rem); }
+.article-deck { max-width: 720px; margin: 2rem 0 0; font-size: clamp(1.1rem, 2vw, 1.35rem); }
+.article-byline { margin-top: 2.5rem; color: #53665f; font-size: .85rem; text-transform: uppercase; letter-spacing: .11em; }
+.article-body { width: min(760px, calc(100% - 2.8rem)); margin: 0 auto; padding: clamp(4rem, 8vw, 7rem) 0; font-family: var(--serif); font-size: clamp(1.2rem, 2vw, 1.38rem); line-height: 1.72; }
+.article-body h2 { margin: 3.5rem 0 1.2rem; font-size: clamp(2.3rem, 4vw, 3.7rem); }
+.article-body p { margin: 0 0 1.7rem; }
+.article-body blockquote { margin: 3rem 0; padding: 2.5rem 0 2.5rem 2rem; border-left: 2px solid var(--saffron); font-size: clamp(1.8rem, 3vw, 2.7rem); }
+.practice-box { margin: 3.5rem 0; padding: clamp(2rem, 5vw, 3.5rem); background: var(--mist); font-family: var(--sans); font-size: 1rem; }
+.practice-box h2 { margin-top: 0; }
+.practice-box ol { padding-left: 1.3rem; }
+.practice-box li { margin: .75rem 0; }
+.article-next { padding: clamp(4rem, 7vw, 6rem) 1.5rem; text-align: center; background: var(--ink); color: var(--paper); }
+.article-next h2 { margin: 0 auto 1.5rem; max-width: 720px; font-size: clamp(2.5rem, 5vw, 5rem); }
 
 .contact-layout { min-height: 720px; display: grid; grid-template-columns: 1fr 1fr; }
 .contact-intro { padding: clamp(5rem, 10vw, 9rem) clamp(1.5rem, 8vw, 8rem); background: var(--ink); color: var(--paper); }
