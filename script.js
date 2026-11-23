@@ -38,6 +38,6 @@ if (form) {
     const message = String(data.get('message') || '').trim();
     const subject = encodeURIComponent(`Yoga Chapters website message from ${name}`);
     const body = encodeURIComponent(`${message}\n\nFrom: ${name}\nEmail: ${email}`);
-    window.location.href = `mailto:hello@yogachapters.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:hello@theyogachapters.com?subject=${subject}&body=${body}`;
   });
 }
