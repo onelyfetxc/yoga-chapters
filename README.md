@@ -7,6 +7,8 @@ A minimal editorial wellness website for [theyogachapters.com](https://theyogach
 - Home
 - Blog
 - Contact Us
+- Three complete journal chapters
+- Sitemap and crawler configuration
 
 ## Local preview
 
