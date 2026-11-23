@@ -1,6 +1,6 @@
 # Yoga Chapters
 
-A minimal editorial wellness website for [yogachapters.com](https://yogachapters.com), built as a static site for GitHub Pages.
+A minimal editorial wellness website for [theyogachapters.com](https://theyogachapters.com), built as a static site for GitHub Pages.
 
 ## Pages
 
@@ -20,4 +20,4 @@ Then visit `http://localhost:8000`.
 
 ## Contact form
 
-The contact form opens the visitor's email app and prepares a message to `hello@yogachapters.com`. Change that address in both `contact.html` and `script.js` if a different inbox should be used.
+The contact form opens the visitor's email app and prepares a message to `hello@theyogachapters.com`. Change that address in both `contact.html` and `script.js` if a different inbox should be used.
